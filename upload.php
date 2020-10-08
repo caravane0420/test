@@ -5,11 +5,12 @@ move_uploaded_file($source, $dest);
 ?>
 <!DOCTYPE html>
 <html>
-        <head>
-            <meta charset="utf-8">
-            <title></title>
-        </head>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
     <body>
         <img src="<?=$_FILES['profile']['name']?>" alt=""/>
     </body>
 </html>
+</>
